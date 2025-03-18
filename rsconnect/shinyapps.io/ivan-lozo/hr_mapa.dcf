@@ -1,0 +1,12 @@
+name: hr_mapa
+title: hr_mapa
+username: ivan-lozo
+account: ivan-lozo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13837906
+bundleId: 9714075
+url: https://ivan-lozo.shinyapps.io/hr_mapa/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

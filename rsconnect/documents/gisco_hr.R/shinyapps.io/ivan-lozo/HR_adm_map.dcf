@@ -1,0 +1,13 @@
+name: HR_adm_map
+title: HR_adm_map
+username: ivan-lozo
+account: ivan-lozo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14229375
+bundleId: 9933151
+url: https://ivan-lozo.shinyapps.io/HR_adm_map/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|app.R|app_v1.R|get_sf_data.R|gisco_data/gradovi_gisco.geojson|gisco_data/zupanije_gisco.geojson|README.md

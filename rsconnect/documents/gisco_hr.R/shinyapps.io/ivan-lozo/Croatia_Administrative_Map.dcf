@@ -1,0 +1,13 @@
+name: Croatia_Administrative_Map
+title: Croatia_Administrative_Map
+username: ivan-lozo
+account: ivan-lozo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14229321
+bundleId: 9933130
+url: https://ivan-lozo.shinyapps.io/Croatia_Administrative_Map/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|app.R|app_v1.R|get_sf_data.R|gisco_data/gradovi_gisco.geojson|gisco_data/zupanije_gisco.geojson|README.md
