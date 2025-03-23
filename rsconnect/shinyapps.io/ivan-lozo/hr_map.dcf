@@ -1,0 +1,13 @@
+name: hr_map
+title: hr_mapa
+username: ivan-lozo
+account: ivan-lozo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14278217
+bundleId: 9965627
+url: https://ivan-lozo.shinyapps.io/hr_map/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|get_sf_data.R|gisco.R|gisco_other.R|nuts3_hr.geojson|README.md|hr_map

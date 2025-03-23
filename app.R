@@ -8,16 +8,9 @@ library(shinyjs)
 
 # Load Croatia's administrative boundaries directly from local files
 # This assumes the data files are available in the app directory
-load_croatia_data <- function() {
-  # Load LAU (Local Administrative Units) data
-
-  lau_data <- st_read('lau_hr.geojson')
-  
-  return(lau_data)
-}
 
 # Load the data
-croatia_lau_data <- load_croatia_data()
+croatia_lau_data <- lau_data <- st_read('lau_hr.geojson')
 
 # Create a function to make a map
 create_map <- function(sf_data, color_var, transform = FALSE, palette_choice = "viridis") {
@@ -225,7 +218,7 @@ server <- function(input, output, session) {
   })
 }
 
-shinylive::export(destdir = 'hr_map',appdir = 'app') 
+#shinylive::export(destdir = 'hr_map',appdir = 'app') 
 
 # Run the app
 shinyApp(ui = ui, server = server)
